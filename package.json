@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve out -p 3000 -C",
     "lint": "next lint"
   },
   "dependencies": {
+    "@safe-global/safe-apps-sdk": "^7.11.0",
     "next": "^13.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,6 +22,7 @@
     "@types/react-dom": "^18.0.3",
     "eslint": "^8.15.0",
     "eslint-config-next": "^12.1.6",
+    "serve": "^14.2.0",
     "typescript": "^5.0.4"
   }
 }
